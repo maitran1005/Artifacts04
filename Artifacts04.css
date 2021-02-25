@@ -1,0 +1,45 @@
+form input, form textarea {
+	background: #f2f2f2;
+	width: 100%;
+	border:0;
+	box-sizing: border-box;
+	border-radius:10px;
+	text-align:center;
+} 
+form {
+	position: relative;
+	z-index: 1;
+	background: #DCDCDC;
+	max-width: 0 auto 100px;
+	padding: 40px 50px;
+	text-align:center;
+	border-radius: 8px;
+	margin: 100px 350px;
+}
+td input{
+	margin-right:50px;
+	text-align:left;
+	margin-left:50px;
+	padding:10px;
+	padding-left:100px;
+}
+td{
+	text-align:left;
+}
+select {
+	margin-left:70px;
+}
+td, td input, select {
+	margin-bottom: 20px;
+	margin-top:20px;
+}
+button{
+	background: green;
+	width: 100%;
+	border:0;
+	padding:15px;
+	color: white;
+	font-size:15;
+	cursor: pointer;
+	border-radius: 8px;
+}
